@@ -1,0 +1,24 @@
+/* ซ่อนปุ่ม choose file ดั้งเดิม */
+#file-upload {
+    opacity: 0;
+    width: 0;
+    height: 0;
+    position: absolute;
+    z-index: -1;
+}
+
+/* ปุ่ม custom */
+.btn-hover-main {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  background: orange;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn-hover-main:hover {
+  background: darkorange;
+}
